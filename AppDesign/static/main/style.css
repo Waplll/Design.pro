@@ -1,30 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #F4D9A3;
+    background-color: #FFFFFF; /* Белый фон */
 }
 
 .nav-block {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid black; /* Черная рамка */
 }
 
 .navigation {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 40%;
+    width: 60%;
     gap: 10%;
 }
 
 .navigation > a {
     text-decoration: none;
-    color: black;
+    color: black; /* Черный цвет текста */
 }
 
 .navigation > a:hover {
@@ -32,7 +32,7 @@ body {
 }
 
 .navigation > a:active {
-    color: #32982F;
+    color: #007BFF; /* Синий цвет при активном состоянии */
 }
 
 main {
@@ -45,23 +45,23 @@ main {
 
 main > form > input[type="submit"] {
     display: block;
-    background: black;
+    background: black; /* Черный фон кнопки */
     width: 30%;
     height: 30px;
-    color: white;
-    border-radius:8px;
+    color: white; /* Белый текст */
+    border-radius: 8px;
     font-weight: bold;
     border: none;
-    transition: background,color 0.2s ease-in;
+    transition: background, color 0.2s ease-in;
 }
 
 main > form > input[type="submit"]:hover {
-    background: #32982F;
+    background: #007BFF; /* Синий фон при наведении */
 }
 
 main > form > input[type="submit"]:active {
-    background: #32982F;
-    color: black;
+    background: #0056b3; /* Темно-синий при нажатии */
+    color: white; /* Белый текст при нажатии */
 }
 
 main > div > div {
@@ -69,8 +69,8 @@ main > div > div {
     margin-top: 10%;
     margin-bottom: 5%;
     border-radius: 30px;
-    border: solid 2px black;
-    box-shadow: 10px -10px 100px black;
+    border: solid 2px black; /* Черная рамка */
+    box-shadow: 10px -10px 100px rgba(0, 0, 0, 0.5); /* Полупрозрачная черная тень */
 }
 
 .delete {
@@ -78,8 +78,8 @@ main > div > div {
     flex-direction: column;
     margin-top: 10%;
     border-radius: 30px;
-    border: solid 2px black;
-    box-shadow: 10px -10px 100px black;
+    border: solid 2px black; /* Черная рамка */
+    box-shadow: 10px -10px 100px rgba(0, 0, 0, 0.5); /* Полупрозрачная черная тень */
 }
 
 .request-card > div {
@@ -98,90 +98,70 @@ main > div > div {
     padding-left: 20px;
 }
 
-.request-description > span {
-    font-weight: bold;
-}
-
-.request-category {
-    padding-left: 20px;
-}
-
-.request-category > span {
-    font-weight: bold;
-}
-
-.request-status {
-    font-style: italic;
-    padding-left: 20px;
-}
-
-.request-status > span {
-    font-style: normal;
-    font-weight: bold;
-}
-
 .request-date > span {
-    font-weight: bold;
+   font-weight: bold; /* Жирный текст для акцентирования */
 }
 
+.request-category,
+.request-status,
 .request-date {
-    padding-left: 20px;
+   padding-left: 20px;
 }
 
 .request-image > img {
-    width: 100%;
-    height: 400px;
-    border-radius: 40px;
-    padding: 20px
+   width: 100%;
+   height: auto; /* Автоматическая высота для адаптивности */
+   border-radius: 40px;
+   padding: 20px;
 }
 
 .delete > form > input[type="submit"] {
-    display: block;
-    background: black;
-    margin-left: 35%;
-    margin-bottom: 1%;
-    width: 30%;
-    height: 30px;
-    color: white;
-    border-radius:8px;
-    font-weight: bold;
-    border: none;
-    transition: background,color 0.2s ease-in;
+   display: block;
+   background: black; /* Черный фон кнопки удаления */
+   margin-left: 35%;
+   margin-bottom: 1%;
+   width: 30%;
+   height: 30px;
+   color: white; /* Белый текст */
+   border-radius:8px;
+   font-weight:bold;
+   border:none;
+   transition:bg,color .2s ease-in;
 }
 
 .dropdown-menu {
-    text-align: center;
-    background: black;
+   text-align:center;
+   background:black; /* Черный фон выпадающего меню */
 }
 
 .dropdown-menu > a {
-    background: black;
-    color: #32982F;
-    font-weight: bold;
+   background:black;
+   color:#007BFF; /* Синий цвет текста в меню */
+   font-weight:bold;
 }
 
 .dropdown-menu > a:hover {
-    background: #32982F;
-    color: black;
+   background:#007BFF; /* Синий фон при наведении на ссылку в меню */
+   color:black;
 }
 
 .dropdown-menu > a:active {
-    background: black;
-    color: white;
+   background:black;
+   color:white;
 }
 
 .dropdown-menu > form > button[type="submit"] {
-    background: black;
-    color: #32982F;
-    font-weight: bold;
+   background:black;
+   color:#007BFF; /* Синий цвет текста кнопки в меню */
+   font-weight:bold;
 }
 
 .dropdown-menu > form > button[type="submit"]:hover {
-    background: #32982F;
-    color: black;
+   background:#007BFF;
+   color:black;
 }
 
 .dropdown-menu > form > button[type="submit"]:active {
-    background: black;
-    color: white;
+   background:black;
+   color:white;
 }
