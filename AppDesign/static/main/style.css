@@ -4,14 +4,14 @@
 }
 
 body {
-    background-color: #FFFFFF; /* Белый фон */
+    background-color: #FFFFFF;
 }
 
 .nav-block {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: 2px solid black; /* Черная рамка */
+    border: 2px solid black;
 }
 
 .navigation {
@@ -24,7 +24,7 @@ body {
 
 .navigation > a {
     text-decoration: none;
-    color: black; /* Черный цвет текста */
+    color: black;
 }
 
 .navigation > a:hover {
@@ -32,7 +32,7 @@ body {
 }
 
 .navigation > a:active {
-    color: #007BFF; /* Синий цвет при активном состоянии */
+    color: #007BFF;
 }
 
 main {
@@ -45,10 +45,10 @@ main {
 
 main > form > input[type="submit"] {
     display: block;
-    background: black; /* Черный фон кнопки */
+    background: black;
     width: 30%;
     height: 30px;
-    color: white; /* Белый текст */
+    color: white;
     border-radius: 8px;
     font-weight: bold;
     border: none;
@@ -56,12 +56,12 @@ main > form > input[type="submit"] {
 }
 
 main > form > input[type="submit"]:hover {
-    background: #007BFF; /* Синий фон при наведении */
+    background: #007BFF;
 }
 
 main > form > input[type="submit"]:active {
-    background: #0056b3; /* Темно-синий при нажатии */
-    color: white; /* Белый текст при нажатии */
+    background: #0056b3;
+    color: white;
 }
 
 main > div > div {
@@ -69,8 +69,8 @@ main > div > div {
     margin-top: 10%;
     margin-bottom: 5%;
     border-radius: 30px;
-    border: solid 2px black; /* Черная рамка */
-    box-shadow: 10px -10px 100px rgba(0, 0, 0, 0.5); /* Полупрозрачная черная тень */
+    border: solid 2px black;
+    box-shadow: 10px -10px 100px rgba(0, 0, 0, 0.5);
 }
 
 .delete {
@@ -78,8 +78,8 @@ main > div > div {
     flex-direction: column;
     margin-top: 10%;
     border-radius: 30px;
-    border: solid 2px black; /* Черная рамка */
-    box-shadow: 10px -10px 100px rgba(0, 0, 0, 0.5); /* Полупрозрачная черная тень */
+    border: solid 2px black;
+    box-shadow: 10px -10px 100px rgba(0, 0, 0, 0.5);
 }
 
 .request-card > div {
@@ -99,7 +99,7 @@ main > div > div {
 }
 
 .request-date > span {
-   font-weight: bold; /* Жирный текст для акцентирования */
+   font-weight: bold;
 }
 
 .request-category,
@@ -110,19 +110,19 @@ main > div > div {
 
 .request-image > img {
    width: 100%;
-   height: auto; /* Автоматическая высота для адаптивности */
+   height: auto;
    border-radius: 40px;
    padding: 20px;
 }
 
 .delete > form > input[type="submit"] {
    display: block;
-   background: black; /* Черный фон кнопки удаления */
+   background: black;
    margin-left: 35%;
    margin-bottom: 1%;
    width: 30%;
    height: 30px;
-   color: white; /* Белый текст */
+   color: white;
    border-radius:8px;
    font-weight:bold;
    border:none;
@@ -131,17 +131,17 @@ main > div > div {
 
 .dropdown-menu {
    text-align:center;
-   background:black; /* Черный фон выпадающего меню */
+   background:black;
 }
 
 .dropdown-menu > a {
    background:black;
-   color:#007BFF; /* Синий цвет текста в меню */
+   color:#007BFF;
    font-weight:bold;
 }
 
 .dropdown-menu > a:hover {
-   background:#007BFF; /* Синий фон при наведении на ссылку в меню */
+   background:#007BFF;
    color:black;
 }
 
@@ -152,7 +152,7 @@ main > div > div {
 
 .dropdown-menu > form > button[type="submit"] {
    background:black;
-   color:#007BFF; /* Синий цвет текста кнопки в меню */
+   color:#007BFF;
    font-weight:bold;
 }
 
